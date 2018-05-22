@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>OASISOU</Name>
+  <Author>Enrico Silterra</Author>
+  <Version>1.0</Version>
+  <Active>True</Active>
+  <Type>Addon</Type>
+  <Description>OASIS search using the openURL method.</Description>
+  <Forms>
+    <Form>FormRequest</Form>
+  </Forms>
+  <Settings>
+    <Setting name="AutoSearch" value="true" type="boolean">
+      <Description>Determines whether or not the search should be done automatically when the request is opened.</Description>
+    </Setting>
+    <Setting name="Username" value="" type="string">
+      <Description>OASIS Username</Description>
+    </Setting>
+    <Setting name="Password" value="" type="string">
+      <Description>OASIS Password.</Description>
+    </Setting>
+  </Settings>
+  <Files>
+    <File>OASISOU.lua</File>
+  </Files>
+</Configuration>
