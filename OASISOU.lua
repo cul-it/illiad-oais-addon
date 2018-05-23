@@ -14,6 +14,7 @@ local autoSearch = GetSetting("AutoSearch");
 local scriptActive = GetSetting("Active");
 local username= GetSetting("Username");
 local password= GetSetting("Password");
+local url = GetSetting("URL");
 local debugEnabled = true;
 
 local interfaceMngr = nil;
@@ -57,7 +58,8 @@ function Search()
     end   
   end
   Log("oup=" .. oup);
-  browser:Navigate("http://www.couttsoasis.com/openURL?".. oup);
+  browser:Navigate(url .. oup);
+  #browser:Navigate("https://www.couttsoasis.com/openURL?".. oup);
 end
 
 function OASISLoaded()

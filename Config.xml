@@ -19,6 +19,9 @@
     <Setting name="Password" value="" type="string">
       <Description>OASIS Password.</Description>
     </Setting>
+    <Setting name="URL" value="https://www.couttsoasis.com/openURL?" type="string">
+      <Description>OASIS Open url, should be https://www.couttsoasis.com/openURL? Make sure there are not trailing spaces! and ends with '?'</Description>
+    </Setting>
   </Settings>
   <Files>
     <File>OASISOU.lua</File>
